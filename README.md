@@ -21,7 +21,7 @@ This recipe is tested with the following
 
 ### System Context
 
-![context-diagram.png](https://github.com/robincher/pomerium-kubernetes-recipe/tree/main/assets/diagram.png)
+![context-diagram.png](assets/diagram.png)
 
 ## Directory Structure
 
