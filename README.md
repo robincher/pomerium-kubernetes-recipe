@@ -1,5 +1,8 @@
 # Pomerium Kubernetes Recipe
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/robincher/pomerium-kubernetes-recipe/blob/main/LICENSE)
+
 ## Introduction
 
 Pomerium is a Identity aware proxy that aim to provide secure access from an untrusted network to your upstream services.
@@ -18,7 +21,7 @@ This recipe is tested with the following
 
 ### System Context
 
-![diagram.png](https://github.com/robincher/pomerium-kubernetes-recipe/blob/master/assets/diagram.png)
+![context-diagram.png](https://github.com/robincher/pomerium-kubernetes-recipe/tree/main/assets/diagram.png)
 
 ## Directory Structure
 
