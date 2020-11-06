@@ -1,0 +1,34 @@
+# Internal HttpBin Workloads
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: httpbin-app
+  namespce: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: httpbin-app
+  template:
+    metadata:
+      labels:
+        app: httpbin-app
+    spec:
+      containers:
+        - name: httpbin-app
+          image: kennethreitz/httpbin
+          resources:
+            requests:
+              cpu: "200m"
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: httpbin-app-service
+  namespce: default
+spec:
+  selector:
+    app: httpbin-app
+  ports:
+    - port: 80
