@@ -10,7 +10,7 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-    - host: "*.your.domain.com"
+    - host: "*.your.domain.com" #Pomerium will intercept all request with this destination
       http:
         paths:
           - backend:

@@ -38,3 +38,4 @@ This recipe is tested with the following
 ## References
 
 - [Pomerium Official Website](https://www.pomerium.com/)
+- [Post on Pomerium with EKS](https://dev.to/robincher/moving-to-pomerium-identity-aware-proxy-4fom)
